@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Love 🤍</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- 1. Landing -->
+  <section id="screen1" class="card">
+    <h1>Hi, Ko Ko 🌊</h1>
+    <p>You’re in this love_site now…<br>Which means you need to be my boyfriend.</p>
+ 
+ <div class="card">
+
+
+  <div class="sticker">
+    <img src="imgs/1.jpg" alt="sticker">
+  </div>
+
+</div>
+
+
+    <div class="lock">
+      <p>🔒 Before you continue, prove you’re really mine.</p>
+      <input id="secretInput" type="number" placeholder="What's my favorite number?">
+      <button class="primary" onclick="checkSecret()">Check</button>
+      <p id="lockMsg"></p>
+    </div>
+  </section>
+
+
+  <!-- 2. Valentine -->
+  <section id="screen2" class="card hidden">
+    <h2>I know you’re mine…</h2>
+    <h3>But I just want to make sure. 👉🏻👈🏻</h3>
+     <div class="card">
+
+
+  <div class="sticker">
+    <img src="imgs/wubmv.jpg" alt="sticker">
+  </div>
+
+</div>
+
+
+    <div class="actions">
+      <button id="yesBtn" class="primary">YES</button>
+      <button id="noBtn" class="ghost">NO</button>
+    </div>
+
+    <p id="valMsg"></p>
+  </section>
+
+  <!-- 3. Letter -->
+  <section id="screen3" class="card hidden">
+    <h2>For You 🤍</h2>
+    <div class="letter">
+       <div class="card">
+
+
+  <div class="sticker">
+    <img src="imgs/kiss.gif" alt="sticker">
+  </div>
+
+</div>
+
+      <div class="letter">
+
+  <p>My love,</p>
+
+  <p >      Happy Valentine’s Day ပါ ကိုကို 
+        အရမ်းလွမ်းနေတယ်။ ဒီလိုနေ့မျိုးတွေ အနားမှာရှိရင်ကောင်းမှာပဲ ပြောနေပင်မဲ့ 
+        တကယ်အပင်ပန်းဆုံးက ကိုကို ဆိုတာ သိလို အကွာအဝေးကို
+        ကိုကိုကြောင့်ဆိုပြီး အပြစ်မတင်ချင်ပါဘူး။
+  </p>
+
+  <p>
+    Sometimes I sit quietly and think about how lucky I am that it’s you...
+    ဖြတ်သန်းတွေ့ကြုံလာသမျှထဲ ကိုကိုက သော့်အတွက် အငြိမ်းချမ်းဆုံးနဲ့ အချစ်ရဆုံးလူသားပဲ 
+    ကိုကိုရဲ့ မပျော်ရွင်ရတဲ့ နေ့ရက်တွေမှာတောင် သော့်ကို ပျော်အောင်လုပ်ပေးလို တကယ်ကျေးဇူးတင်ပါတယ်။
+    Your kindness, your voice, your patience, and the way you care,
+    they make me feel safe, loved, and understood in ways I never imagined.
+  </p>
+
+  <p>
+     No distance can touch us,
+    because my heart lives in yours, ilysm kk.
+  </p>
+
+
+
+    <button class="primary" onclick="nextScreen(3,4)">Bye</button>
+  </section>
+   </div>
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
